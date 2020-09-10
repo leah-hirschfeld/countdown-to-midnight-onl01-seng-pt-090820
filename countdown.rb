@@ -8,10 +8,10 @@ def countdown(number)
   end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(number)
   until number == 0 
     puts "#{number} SECONDS!"
+      sleep 1  
       number -= 1 
-      num_secs == 1 
     end
 end
