@@ -1,13 +1,6 @@
 def countdown(number)
   until number == 0
-      puts "#{number} SECONDS!"
-      number -= 1 
-    end
-end
-
-def countdown(number)
-  until number == 0
-      puts "#{number} SECONDS!"
+      puts "#{number} SECOND(S)!"
       number -= 1 
     end
   if number == 0
