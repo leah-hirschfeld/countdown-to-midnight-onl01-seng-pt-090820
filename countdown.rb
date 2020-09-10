@@ -5,7 +5,3 @@ def countdown
     puts "#{number} SECONDS!"
   end
 end
-
-def countdown_with_sleep
-  
-end
