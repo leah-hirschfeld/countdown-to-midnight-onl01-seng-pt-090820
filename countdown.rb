@@ -1,6 +1,6 @@
 def countdown(number)
   until number == 0
-      number =- 1 
+      number -= 1 
       puts "#{number} SECONDS!"
     end
   if number == 0
