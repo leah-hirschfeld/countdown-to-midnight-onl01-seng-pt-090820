@@ -1,7 +1,7 @@
 def countdown(number)
   until number == 0
       number -= 1 
-      puts num.abs"#{number} SECONDS!"
+      puts "#{number} SECONDS!"
     end
   if number == 0
     return "HAPPY NEW YEAR!"
