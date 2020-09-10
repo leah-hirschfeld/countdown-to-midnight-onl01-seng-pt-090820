@@ -10,7 +10,8 @@ end
 
 def countdown_with_sleep
   until number == 0 
-    puts 
-  num_secs
-  
+    puts "#{number} SECONDS!"
+      number -= 1 
+      num_secs == 1 
+    end
 end
