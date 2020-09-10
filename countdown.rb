@@ -9,5 +9,8 @@ def countdown(number)
 end
 
 def countdown_with_sleep
+  until number == 0 
+    puts 
+  num_secs
   
 end
